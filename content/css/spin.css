@@ -5,6 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body {
+    padding: 20px;
     height: 100vh;
     background-image: url('../images/wood-floor.jpg');
   }

@@ -7,7 +7,7 @@ function roll() {
 // ---------- HOME PAGE ----------
 
 function rollpage() {
-    window.location.href = '../views/roll/askroll.html'; // The path to the Roll page
+    window.location.href = '../views/roll/trialroll.html'; // The path to the Roll page
 }
 
 function specialEvent() {
@@ -18,23 +18,16 @@ function guide() {
     window.location.href = 'guide.html'; // The path to the Guide page
 }
 
-// ---------- ASK ROLL PAGE ----------
+// ---------- ROLL PAGE ----------
 
-function yesDice() {
+function specialDice() {
     window.location.href = 'spin.html'; // The path to the Guide page
 }
 
-function noDice() {
-    window.location.href = 'trialroll.html'; // The path to the Guide page
+function regularDice() {
+    window.location.href = '../views/roll/trialroll.html'; // The path to the Guide page
 }
 
-// ---------- SPECIAL ROLL PAGE ----------
-
-// function regularDice() {
-//     const buttonValue = document.getElementById('regulardie').getAttribute('data-value');
-
-// }
-
-// function specialDice() {
-//     const buttonValue = document.getElementById('specialdie').getAttribute('data-value');
-// }
+function regular2Dice() {
+    window.location.href = 'trialroll.html'; // The path to the Guide page
+}

@@ -15,20 +15,23 @@
     <script src="../../controllers/script.js" dfer></script> 
 </head>
 <body>
+    <!-- Main Menu -->
+    <div class="back-to-menu">
+        <a href="../home.html" class="btn btn-light">Back to Main Menu</a>
+    </div>
+
     <div class="wrapper">
+        
     <div class="content-md-lg py-3">
+    
         <div class="col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
             <div id="heading"><strong>Regular Roll</strong></div>
             <hr style="margin:auto; width:25px" class="border-light opacity-100">
 
-            <!-- Place these where you want the dice type and values to appear -->
-            <div id="diceTypeDisplay">Dice Type: <span id="diceType"></span></div>
-            <div id="diceValuesDisplay">Dice Values: <span id="diceValues"></span></div>
-
         </div>
         <div class="container-lg">
-            <div class="row py-3 my-2">
-                <div class="col-lg-5 col-md-5 col-sm-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col">
                     <div class="card rounded-0">
                         <div class="card-body">
                             <div class="container-fluid">
@@ -71,10 +74,14 @@
                                     </div>
                                 </div>
                                </div>
-                               <div class="col-lg-5 col-md-8 col-sm-12 col-12 mx-auto mt-4">
-                                    <button type="button" class="roll-btn roll" id="rollButton">Roll Dice</button>
-                               </div>
+                                <div class="d-flex justify-content-evenly flex-wrap" style="margin-top: 30px; margin-bottom: 20px;">
+                                    <button class="modal-btn regular" id="rollButton">Regular</button>
+                                    <button class="modal-btn special" id="specialRollButton" onclick="specialDice()">New Die</button>
+                                </div>
+                                <div id="subheading">Dice Value: <span id="diceValue"></span></div>
                             </div>
+                            
+                            
                         </div>
                     </div>
                 </div>

@@ -51,8 +51,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     height: 100vh;
 
     background-image: url('../images/wood-floor.jpg');
@@ -65,7 +65,7 @@ body {
 
 /* Common button styling */
 .button {
-    padding: 15px 30px;
+    padding: 15px 15px;
     border-radius: 8px;
     border: none;
     color: white;
@@ -123,14 +123,4 @@ body {
     margin: auto; /* Centers the GIF */
     width: 100%; /* Sets the width to the container's width */
     height: 20%;
-}
-
-/* ---------- ASK ROLL PAGE ---------- */
-    
-.yes-button {
-    background-color: #4CAF50; /* Red */
-}
-
-.no-button {
-    background-color: #f44336; /* Blue */
 }
