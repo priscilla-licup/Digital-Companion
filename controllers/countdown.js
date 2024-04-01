@@ -46,21 +46,15 @@ function generateRandomPicture() {
 
   images = [
     "../../content/images/food/almond.png",
-    "../../content/images/food/almondfish.png",
-    "../../content/images/food/almondmilk.png",
     "../../content/images/food/bacon.png",
     "../../content/images/food/brocolli.png",
     "../../content/images/food/cheese.png",
     "../../content/images/food/chicken.png",
-    "../../content/images/food/chickenfriedrice.png",
     "../../content/images/food/cream.png",
     "../../content/images/food/fish.png",
-    "../../content/images/food/fruitsalad.png",
-    "../../content/images/food/icecream.png",
     "../../content/images/food/milk.png",
     "../../content/images/food/peach.png",
     "../../content/images/food/rice.png",
-    "../../content/images/food/sandwich.png",
     
   ];
 
