@@ -11,7 +11,7 @@ function rollpage() {
 }
 
 function specialEvent() {
-    window.location.href = 'special-event.html'; // The path to the Special Event page
+    window.location.href = '../views/specialevent/special-event.html'; // The path to the Special Event page
 }
 
 function guide() {
