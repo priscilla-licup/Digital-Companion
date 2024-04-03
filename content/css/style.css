@@ -47,7 +47,7 @@ button{
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 20px;
+    /* padding: 20px; */
 
     display: flex;
     flex-direction: column;
@@ -119,8 +119,16 @@ body {
 }
 
 .gif-top, .gif-bottom {
-    /* display: block; Ensures the GIF is a block element */
-    margin-top: 0; /* Centers the GIF */
+    display: block; /* Ensures the GIF is a block element */
+    /* margin-top: 200px; */
+    /* margin-bottom: 0; Centers the GIF */
     width: 100%; /* Sets the width to the container's width */
     height: 20%;
+
+    display: block;
+    width: 100%;
+    height: auto;
+  
+    max-height: 200px;
+
 }
