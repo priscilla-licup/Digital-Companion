@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Roll Page</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../content/css/spin.css" />
+    <script src="../../controllers/script.js" dfer></script> 
+</head>
+<body style="align-items: center; justify-content: center;">
+    <div class="back-to-menu">
+        <a onclick="backToMenu()" class="btn btn-light">Back to Main Menu</a>
+    </div>
+    
+    <div class="wrapper">
+        <div>
+            <div id="heading" style= "text-align: center;"><strong><h3>Which die do you choose?</h3></strong></div>
+            <hr style="margin:auto; width:25px" class="border-light opacity-100">
+
+        </div>
+    <div class="legend">
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Dice Type</th>
+              <th>Values</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>0</td>
+                <td>Regular Die</td>
+                <td>1,2,3,4,5,6</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Triple Zero or Six</td>
+              <td>0,0,0,6,6,6</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Even Spread</td>
+              <td>2,2,4,4,6,6</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Odd and Safe</td>
+              <td>1,1,3,3,5,5</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>High Stakes</td>
+              <td>-1,-1,-1,-1,10,10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="buttons-container" style="margin-top:20px; font-size: larger;">
+        <button style="margin-left: 10px; margin-right: 10px; padding: 20px" class="button rounded" id="regular">0</button>
+        <button style="margin-left: 10px; margin-right: 10px; padding: 20px" class="button rounded" id="zeroSix">1</button>
+        <button style="margin-left: 10px; margin-right: 10px; padding: 20px" class="button rounded" id="twoFourSix">2</button>
+        <button style="margin-left: 10px; margin-right: 10px; padding: 20px" class="button rounded" id="oneThreeFive">3</button>
+        <button style="margin-left: 10px; margin-right: 10px; padding: 20px" class="button rounded" id="oneTen">4</button>
+    </div>
+    </div>
+</div>
+    <!-- <img class="gif-bottom" src="images/belt.gif" alt="Bottom GIF"> -->
+    <!-- Script -->
+    <script src="../../controllers/ask.js"></script>
+</body>
+</html>

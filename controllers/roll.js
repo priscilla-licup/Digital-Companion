@@ -40,12 +40,6 @@ const rollDice = () => {
         dice1.dataset.face = dice1Val;
         dice1.classList.remove('rolling');
     }, 2000);
-
-    // Clear storage after roll to reset the state for next roll/page visit
-    localStorage.removeItem('diceType');
-    if(diceValue) {
-        localStorage.removeItem('diceValue');
-    }
 };
 
 rollButton.addEventListener('click', function(e) {
@@ -66,6 +60,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // updateDiceFaces(diceValues);
 });
 
-// function updateDiceFaces(diceValues) {
-//     if (!diceValues) return; // Exit if no values are set
 

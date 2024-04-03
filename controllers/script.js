@@ -20,8 +20,12 @@ function guide() {
 
 // ---------- ROLL PAGE ----------
 
+function askDice() {
+    window.location.href = 'roll/ask.html';
+}
+
 function specialDice() {
-    window.location.href = 'spin.html'; // The path to the Guide page
+    window.location.href = 'spin.html'; 
 }
 
 function regularDice() {
@@ -29,5 +33,28 @@ function regularDice() {
 }
 
 function regular2Dice() {
+    // Clear storage after roll to reset the state for next roll/page visit
+    localStorage.removeItem('diceType');
+    if(diceValue) {
+        localStorage.removeItem('diceValue');
+    }
     window.location.href = 'trialroll.html'; // The path to the Guide page
+}
+
+function backToMenu() {
+    // Clear storage after roll to reset the state for next roll/page visit
+    localStorage.removeItem('diceType');
+    if(diceValue) {
+        localStorage.removeItem('diceValue');
+    }
+    window.location.href = '../home.html'; // The path to the Guide page
+}
+
+function selectDice() {
+    // Clear storage after roll to reset the state for next roll/page visit
+    localStorage.removeItem('diceType');
+    if(diceValue) {
+        localStorage.removeItem('diceValue');
+    }
+    window.location.href = 'ask.html'; // The path to the Guide page
 }

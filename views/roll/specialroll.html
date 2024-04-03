@@ -17,7 +17,7 @@
 <body>
     <!-- Main Menu -->
     <div class="back-to-menu">
-        <a href="../home.html" class="btn btn-light">Back to Main Menu</a>
+        <a onclick="backToMenu()" class="btn btn-light">Back to Main Menu</a>
     </div>
     <div class="wrapper">
     <div class="content-md-lg py-3">
@@ -61,8 +61,8 @@
                                 </div>
                                </div>
                                <div class="d-flex justify-content-evenly flex-wrap" style="margin-top: 30px; margin-bottom: 20px;">
-                                <button class="modal-btn special" id="rollButton">Roll</button>
-                                <button class="modal-btn regular" id="specialRollButton" onclick="regular2Dice()">Back to Regular</button>
+                                <button class="modal-btn regular" id="rollButton">Roll</button>
+                                <button class="modal-btn special" id="specialRollButton" onclick="selectDice()">Back to Dice Selection</button>
                             </div>
                                <div id="subheading">Dice Value: <span id="diceValue"></span></div>
                             </div>

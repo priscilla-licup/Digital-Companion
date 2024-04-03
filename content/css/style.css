@@ -119,8 +119,8 @@ body {
 }
 
 .gif-top, .gif-bottom {
-    display: block; /* Ensures the GIF is a block element */
-    margin: auto; /* Centers the GIF */
+    /* display: block; Ensures the GIF is a block element */
+    margin-top: 0; /* Centers the GIF */
     width: 100%; /* Sets the width to the container's width */
     height: 20%;
 }
