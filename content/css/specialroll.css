@@ -6,6 +6,7 @@
 }
 
 body {
+    padding: 20px;
     height: 100vh;
     background-image: url('../images/wood-floor.jpg');
 }
@@ -34,7 +35,7 @@ body {
   }
 
 #subheading {
-    font-size: 1.0em;
+    font-size: 1.25em;
     text-align: center;
     color: #202020;
     font-weight: 300;

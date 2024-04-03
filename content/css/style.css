@@ -42,10 +42,8 @@ button{
 
 /* ---------- GENERAL --------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     /* padding: 20px; */
 
@@ -87,7 +85,7 @@ body {
     display: flex;
     flex-wrap: wrap; /* Allows buttons to wrap onto the next line */
     justify-content: center; /* Centers buttons in the container */
-    gap: 10px; /* Spaces out the buttons */
+    gap: 20px; /* Spaces out the buttons */
 }
 
 /* Responsive design for smaller screens */
@@ -120,15 +118,9 @@ body {
 
 .gif-top, .gif-bottom {
     display: block; /* Ensures the GIF is a block element */
-    /* margin-top: 200px; */
-    /* margin-bottom: 0; Centers the GIF */
     width: 100%; /* Sets the width to the container's width */
-    height: 20%;
-
-    display: block;
-    width: 100%;
     height: auto;
-  
+    margin-bottom: 50px;
     max-height: 200px;
 
 }
