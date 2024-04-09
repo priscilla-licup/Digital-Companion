@@ -43,6 +43,7 @@ function regular2Dice() {
 
 function backToMenu() {
     // Clear storage after roll to reset the state for next roll/page visit
+    diceValue = ""
     localStorage.removeItem('diceType');
     if(diceValue) {
         localStorage.removeItem('diceValue');
